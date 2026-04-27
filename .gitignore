@@ -1,0 +1,84 @@
+# =========================
+# Node modules
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# Build / dist artifacts
+# =========================
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Runtime files
+# =========================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# =========================
+# Vite / frontend extras
+# =========================
+frontend/.vite/
+frontend/dist/
+
+# =========================
+# Backend extras
+# =========================
+backend/coverage/
+backend/.nyc_output/
+backend/uploads/
+
+# =========================
+# IDE / editor
+# =========================
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Test output
+# =========================
+junit.xml
+test-results/
+reports/

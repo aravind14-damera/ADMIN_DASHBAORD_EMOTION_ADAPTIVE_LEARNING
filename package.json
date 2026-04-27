@@ -1,0 +1,27 @@
+{
+  "name": "@admin-dashboard/admin",
+  "version": "1.0.0",
+  "description": "Root workspace for Admin Dashboard (frontend + backend)",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start": "npm --prefix backend run start",
+    "build": "npm --prefix frontend run build",
+    "seed": "npm --prefix backend run seed",
+    "test": "npm --prefix backend run test"
+  },
+  "keywords": [
+    "admin-dashboard",
+    "mern",
+    "vite",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
